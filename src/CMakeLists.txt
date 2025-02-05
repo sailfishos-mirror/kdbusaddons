@@ -1,4 +1,6 @@
 add_subdirectory(tools/kquitapp)
+add_subdirectory(qml)
+add_subdirectory(kdbusxml2qml)
 
 add_library(KF6DBusAddons)
 add_library(KF6::DBusAddons ALIAS KF6DBusAddons)
